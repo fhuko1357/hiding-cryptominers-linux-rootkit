@@ -1,4 +1,4 @@
-MODNAME		?= rootkit
+MODNAME		?= fuse
 obj-m		+= $(MODNAME).o
 $(MODNAME)-y	+= main.o
 ccflags-y	+= -Werror -fno-stack-protector -fomit-frame-pointer
